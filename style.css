@@ -5,7 +5,7 @@
 
 html, body {
 	
-	font: arial ;
+	font-family: arial;
 }
 
 
@@ -99,9 +99,10 @@ html, body {
 		color: white;
 		background-color: #5799c1;
 		text-decoration: none;
-		font-size: 25px;
-		padding: 15px 35px 12px 15px;
+		
+		padding: 15px 35px 12px 40px;
 		border-radius: 10px 10px 0 0;
+		font-size: 16px;
 
 	}
 
@@ -109,8 +110,8 @@ html, body {
 		color: #4b83a6;
 		background-color: #c2f2ed;
 		text-decoration: none;
-		font-size: 25px;
-		margin-left: 132px;
+		font-size: 16px;
+		margin-left: 136px;
 		padding: 15px 35px 12px 15px;
 		border-radius: 10px 10px 0 0;
 	}
@@ -120,25 +121,31 @@ html, body {
 	}
 
 	.tenants-form {
+		display: flex;
+		flex-direction: column;
 		margin-top: 11px;
 		padding: 24px 34px 10px 38px;
 		border: solid 0px ;
 		border-radius: 0 10px 0 0; 
 		background: linear-gradient(180deg, #5799c1, #407a9f );
 		color: white;
+		max-width: 340px;
+		width: 100%;
 		
 	}
-
-
 
 	.tenants-form p {
 		margin-bottom: 16px;
 	}
 
+
+	
+
 	.search__place {
 		color: #316e94;
 		padding: 15px 0 15px 17px;
-		width: 90%;
+		width: 94%;
+	
 		border: solid 2px #316e94;
 		border-radius: 10px;
 		outline: none;
@@ -150,14 +157,21 @@ html, body {
 	}
 
 	.search__check {
-		margin-right: 10px;
+		
 		margin-bottom: 20px;
+		align-self: flex-start;
+		padding-left: 13px;
 	}
 
-	.search-form p {
+	.search__check input {
+		margin-right: 10px;
+	}
+
+	.search-form  {
 		display: flex;
-		justify-content: flex-end;
-		align-items: center;
+		flex-direction: column;
+		
+		align-items: flex-end;
 	}
 
 	.search__selection {
@@ -167,6 +181,7 @@ html, body {
 		border-radius: 5px;
 		outline: none;
 		margin-left: 21px;
+		
 	}
 
 	.search__selection::placeholder {
@@ -182,4 +197,28 @@ html, body {
 		background: linear-gradient(180deg, #6bb2dd, #4a8ab3);
 		outline: none;
 		cursor: pointer;
+	}
+
+.offers {
+	background: linear-gradient(180deg, #eefffd, #c2f2ed);
+}
+
+	.offers-list {
+		display: flex;
+		
+		padding: 13px 0 0 24px;
+	}
+
+	.offer {
+		flex-basis: 33%;
+		margin-right: 55px;
+	}
+
+	.offer h2 {
+		padding-left: 42px;
+		background-image: url(img/home.png); 
+		background-repeat: no-repeat;
+		color: #4484ad;
+		margin-bottom: 23px;
+		font-size: 12px;
 	}
