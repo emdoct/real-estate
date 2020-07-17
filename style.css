@@ -206,12 +206,14 @@ html, body {
 	.offers-list {
 		display: flex;
 		
-		padding: 13px 0 0 24px;
+		padding: 13px 0 25px 24px;
 	}
 
 	.offer {
 		flex-basis: 33%;
 		margin-right: 55px;
+
+		
 	}
 
 	.offer h2 {
@@ -220,5 +222,4 @@ html, body {
 		background-repeat: no-repeat;
 		color: #4484ad;
 		margin-bottom: 23px;
-		font-size: 12px;
 	}
