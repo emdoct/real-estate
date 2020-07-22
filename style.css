@@ -223,3 +223,126 @@ html, body {
 		color: #4484ad;
 		margin-bottom: 23px;
 	}
+
+.goods-container {
+	flex-wrap: wrap;
+	padding: 19px 0 0 30px;
+}
+	.goods-card {
+		max-width: 220px;
+		margin-right: 19px;
+		margin-bottom: 20px;
+	}
+
+	.goods-card__img {
+		
+		margin-bottom: -4px;
+	}
+
+	.goods-card__img img {
+		width: 100%;
+	}
+
+	.goods-card__description {
+		display: flex;
+		background-color: #4f8fb7;
+		border-radius: 0 0 5px 5px;
+		color: white;
+		padding: 10px 8px 13px 8px;
+	}
+
+	.goods-description__text {
+		max-width: 150px;
+		line-height: 25px;
+	}
+
+	.goods-card__bottom {
+		height: 27px;
+		cursor: pointer;
+		align-self: center;
+		margin-left: 12px;
+
+	}
+
+	.goods-card__bottom:active {
+		border: 1px solid black;
+	}
+
+.social {
+	background-color: #5b91a9;
+	padding: 12px 0 13px 0;
+}
+
+	.social-sign__form {
+		border: 1px solid #d7d7d7;
+		border-radius: 10px;
+		background-color: #7fb7db;
+		color: white;
+		padding: 13px 21px 20px 24px 
+	}
+
+	.social-sign__form h2 {
+		
+		margin-bottom: 23px;
+	}
+
+
+	.social-sign__form input {
+		max-width: 150px;
+		box-sizing: border-box;
+		padding: 9px 0 9px 12px;
+		
+		border: none;
+		border-radius: 10px;
+		outline: none;
+
+	}
+
+	.social-sign__form input::placeholder {
+		color: #6f97af;
+	}
+
+	.member__btn {
+		padding: 7px 28px 7px 24px;
+		border: 2px solid #d7d7d7;
+		border-radius: 10px;
+		background: linear-gradient(166deg, #6bb2dd, #4b8bb4);
+		color: white;
+		box-sizing: border-box;
+		outline: none;
+	}
+	
+	.social-signup__btn {
+		display: flex;
+		justify-content: space-between;
+
+		color: white;
+		box-sizing: border-box;
+		border-radius: 10px;
+		border: 2px solid #d7d7d7;
+		padding: 0 0 0 49px;
+		margin-top: 11px;
+		background-color: #7fb7db;
+	}
+
+	.social-signup__btn h3 {
+		margin-top: 13px;
+	}
+
+	.signup__btn {
+		margin: 0 1px 0 0;
+		width: 170px;
+		height: 46px;
+		border-radius: 0 10px 10px 0;
+	}
+
+	.signup__btn img {
+		height: 100%;
+		max-width: 100%;
+	}
+
+	.signup__btn:active {
+		border: 1px solid ;
+		box-sizing: border-box;
+	}
+	
