@@ -273,12 +273,18 @@ html, body {
 	padding: 12px 0 13px 0;
 }
 
+	.social-container {
+		justify-content: space-around;
+	}
+
 	.social-sign__form {
 		border: 1px solid #d7d7d7;
 		border-radius: 10px;
 		background-color: #7fb7db;
 		color: white;
-		padding: 13px 21px 20px 24px 
+		padding: 13px 21px 20px 24px;
+		
+		box-sizing: border-box;
 	}
 
 	.social-sign__form h2 {
@@ -296,6 +302,14 @@ html, body {
 		border-radius: 10px;
 		outline: none;
 
+	}
+
+	.member__login {
+		margin-right: 17px;
+	}
+
+	.member__password {
+		margin-right: 13px;
 	}
 
 	.social-sign__form input::placeholder {
@@ -342,7 +356,39 @@ html, body {
 	}
 
 	.signup__btn:active {
-		border: 1px solid ;
+		border: 1px solid blue;
 		box-sizing: border-box;
 	}
+
+	.social-subscribe__form {
+		padding: 19px 18px 22px 22px;
+		box-sizing: border-box;
+		border: 1px solid #d7d7d7;
+		border-radius: 10px;
+		background-color: #7fb7db;
+	}
 	
+	.social-subscribe__form h3 {
+		color: white;
+
+	}
+
+	.subscribe__email {
+		width: 310px;
+		padding: 10px 15px;
+		margin-top: 23px;
+		box-sizing: border-box;
+		border: none;
+		border-radius: 10px;
+		outline: none;
+	}
+
+	.subscribe__btn {
+		padding: 7px 16px 7px 18px;
+		border: 2px solid #d7d7d7;
+		border-radius: 10px;
+		background: linear-gradient(166deg, #6bb2dd, #4b8bb4);
+		color: white;
+		box-sizing: border-box;
+		outline: none;
+	}
