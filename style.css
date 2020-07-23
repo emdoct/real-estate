@@ -312,8 +312,9 @@ html, body {
 		margin-right: 13px;
 	}
 
-	.social-sign__form input::placeholder {
+	.social-sign__form input::placeholder, .social-subscribe__form input::placeholder {
 		color: #6f97af;
+		font-size: 16px;
 	}
 
 	.member__btn {
@@ -391,4 +392,94 @@ html, body {
 		color: white;
 		box-sizing: border-box;
 		outline: none;
+	}
+
+	.social__icons {
+		margin-top: 10px;
+	}
+
+	.social__icons a {
+		margin-right: 19px;
+	}
+
+	.social__icons img {
+		transition: 0.8s;
+		box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, .2);
+	}
+
+	.social__icons img:hover {
+		transition: 0.8s;
+		transform: scale(1.2);
+	}
+
+.footer {
+	background-color: #4b7d9b;
+	padding: 25px 0 50px 0;
+
+}
+	.footer-container {
+		justify-content: space-around;
+	}
+
+	.footer h3 {
+		color: white;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+
+	.footer ul  {
+		list-style: none;
+	}
+
+	.footer ul a {
+		color: #dbe5eb;
+		text-decoration: none;
+
+	}
+
+	.footer ul li {
+		margin-bottom: 12px;
+	}
+
+	.testimonials-section {
+		max-width: 317px;
+	}
+
+	.testimonials-section h3 {
+		display: inline;
+		margin-right: 12px;
+
+		vertical-align: top;
+	}
+
+	.testimonials-section p {
+		color: white;
+		font-size: 13px;
+		line-height: 22px;
+	}
+
+	.testimonials-section p:nth-of-type(1) {
+		margin-top: 20px;
+		
+
+	}
+
+	.testimonials-section p:nth-last-child(1) {
+		font-weight: bold;
+		
+		margin-top: 13px;
+	}
+
+	.footer-frt__btn {
+		margin-right: 5px;
+	}
+
+	.footer-sec__btn img {
+		transform: rotate(180deg);
+	}
+
+	.footer-logo__text a {
+		text-decoration: none;
+		padding-left: 20px;
+		background-image: url('img/logo.png');
 	}
