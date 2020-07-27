@@ -114,7 +114,7 @@ hr {
 		border-radius: 10px;
 		color: white;
 		width: 100%;
-
+		z-index: 20;
 
 
 	}
@@ -418,6 +418,10 @@ hr {
 		margin-right: 10px;
 	}
 
+	.search-form_check {
+		width: 10px !important;
+	}
+
 	.search-form  {
 		display: flex;
 		flex-direction: column;
@@ -478,6 +482,7 @@ hr {
 .goods-container {
 	flex-wrap: wrap;
 	padding: 19px 0 0 30px;
+	justify-content: center;
 }
 	.goods-card {
 		max-width: 220px;
@@ -744,6 +749,24 @@ hr {
 		margin-top: 40px;
 		color: white;
 	}
+@media (max-width: 980px) {
+	.social-container {
+		flex-wrap: wrap;
+
+	}
+
+	.member__btn, .subscribe__btn {
+		margin-top: 8px;
+	}
+
+	.social-login__section {
+		margin-right: 18px;
+	}
+
+	.social-subscribe__section {
+		margin-top: 20px;
+	}
+}
 
 @media (max-width: 960px) {
 
@@ -758,6 +781,37 @@ hr {
 		height: 345px;
 		margin-left: auto;
 		margin-right: auto;
+	}
+
+	.offer h2 {
+		font-size: 18px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.offer__text {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 780px) {
+	.footer-container {
+		flex-wrap: wrap;
+		justify-content: flex-start;
+
+	}
+
+	.aboutus-section, .proparties-section {
+		margin-right: 16px;
+	}
+
+	.footer-logo {
+		margin: 25px auto 0 0;
+		
+	}
+	.testimonials-section {
+		max-width: 300px;
+		margin-right: 15px;
 	}
 }
 
@@ -774,6 +828,17 @@ hr {
 
 	.login {
 		padding-left: 0px;
+	}
+
+	.offer h2 {
+		font-size: 16px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+
+	.offer__text {
+		font-size: 12px;
+		line-height: 22px;
 	}
 	
 }
@@ -796,6 +861,27 @@ hr {
 
 	.slider-bar {
 		margin-left: 22px;
+	}
+
+	.offers-list {
+		flex-direction: column;
+	}
+
+	.offer {
+		margin-bottom: 20px;
+	}
+
+	.offer h2 {
+		font-size: 20px;
+		margin-bottom: 10px;
+	}
+
+	.offer p {
+		font-size: 14px;
+	}
+
+	.testimonials-section {
+		margin-top: 35px;
 	}
 
 }
@@ -825,6 +911,16 @@ hr {
 		display: block;
 	}
 
+	.goods-card {
+		max-width: 240px;
+	}
+
+	.footer-logo {
+		margin-top: 35px;
+	}
+
+
+
 
 
 
@@ -836,21 +932,69 @@ hr {
 		font-size: 12px;
 	}
 
-	.slide-text h3 {
+	.slide-text h3, .owners-form h3 {
 		font-size: 15px;
 	}
 
-	.tenants-form p, .search__check {
+	.tenants-form p, .search__check, .owners-form p {
 		font-size: 12px;
 	}
 
 	.tenants-form input {
 		padding: 10px 0 10px 10px;
-		width: 84%;
+		
 
+	}
+
+	.search__place {
+		width: 85%;
+	}
+
+	.search__selection {
+		max-width: 118px;
+
+	}
+
+	.tenants-form, .owners-form {
+		padding-left: 13px;
 	}
 
 	.tenants-form input::placeholder {
 		font-size: 10px;
+	}
+
+	.social-sign__form form, .social-subscribe__form {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.social-sign__form input, .member__btn {
+		max-width: 90%;
+	}
+
+	.subscribe__email {
+		width: 85%;
+	}
+
+	.member__password {
+		margin-top: 10px;
+	}
+
+	.social-signup__btn h3 {
+		font-size: 16px;
+	}
+
+	.social-signup__btn {
+		
+		padding: 0 0 0 5px;
+	}
+
+	.signup__btn {
+		margin: 0 -17px 0 0;
+		width: 150px;
+	}
+
+	.signup__btn img {
+		max-width: 89%;
 	}
 }
